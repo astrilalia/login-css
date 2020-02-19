@@ -1,0 +1,62 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Quicksand;
+}
+
+.mainMenu {
+    border: 1px solid teal;
+    width: 26%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: wheat;
+}
+
+h1 {
+    color: teal;
+}
+
+.userInput input{
+    background-color: whitesmoke;
+    color: teal;
+    border: 2px solid darkseagreen;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.button input {
+    font-family: Quicksand;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    font-size: 24px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    width: 250px;
+    transition: 250ms;
+    margin-bottom: 10px;
+}
+
+.button input:hover {
+    font-family: Quicksand;
+    background-color: darkkhaki;
+    color: whitesmoke;
+    font-size: 26px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    width: 230px;
+    transition: 250ms;
+}
+
+.button input:active{
+    font-family: Quicksand;
+    outline: none;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    font-size: 30px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    width: 250px;
+}

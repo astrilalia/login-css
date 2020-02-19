@@ -1,0 +1,30 @@
+h1 {
+    color: teal;
+    border: 3px solid burlywood;
+    background-color: cornsilk !important;
+}
+
+.biru:hover {
+    border-radius: 20px;
+    background-color: darkseagreen !important;
+    font-size: 60px;
+}
+
+.textFlow {
+    font-size: 50px;
+    color: darkolivegreen;
+}
+
+.button-custom {
+    width: 100px;
+    outline: none !important;
+    background-color: palevioletred;
+    border-radius: 24px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 250ms;
+}
+
+.button-custom:active{
+    width: 500px;
+}
